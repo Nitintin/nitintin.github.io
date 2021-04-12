@@ -1402,6 +1402,16 @@ input, select, textarea {
 			overflow: auto;
 		}
 
+		h3{
+			border-bottom: 1px dotted rgba(255, 255, 255, 0.5);
+			width: fit-content;
+			transition: 0.5s;
+		}
+		h3:hover{
+			border-bottom: none;
+			transition: 0.5s;
+		}
+
 		body.is-article-visible #header {
 			-moz-transform: scale(0.95);
 			-webkit-transform: scale(0.95);
